@@ -14,6 +14,27 @@
         filter: brightness(0.35) contrast(1.5);
     }
 
+    .navbar {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 20px;
+        background-color: #000;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+
+    .title {
+        color: #00bfff;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
     header {
         position: relative;
         height: 100vh;
