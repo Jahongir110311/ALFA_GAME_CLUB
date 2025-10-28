@@ -105,6 +105,10 @@
         transition: transform 0.3s;
     }
 
+    .card-title{
+        color: white;
+    }
+
     .games .card:hover {
         transform: scale(1.05);
         box-shadow: 0 0 20px #00bfff44;
